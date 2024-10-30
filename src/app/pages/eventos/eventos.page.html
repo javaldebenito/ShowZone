@@ -1,0 +1,27 @@
+<app-shared-header title="Eventos"></app-shared-header>
+
+<ion-content [fullscreen]="true">
+  <ion-searchbar placeholder="Buscar eventos..."></ion-searchbar>
+
+   <ion-list>
+    @for (item of items; track item.id) {
+      <ion-card>
+        <img alt="Silhouette of mountains" src="https://picsum.photos/600/500" />
+        <ion-card-header>
+          <ion-card-title>{{ item.event_name}}</ion-card-title>
+          <ion-card-subtitle>{{ item.location }}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <p><strong>Horario:</strong> {{ item.time }}</p>
+          <p><strong>Fecha:</strong> {{ item.date }}</p>
+        </ion-card-content>
+        <ion-button shape="round">Ver</ion-button>
+        <ion-button shape="round" size="large">
+          <ion-icon slot="icon-only" name="heart"></ion-icon>
+        </ion-button>
+      </ion-card>
+    }
+  </ion-list>
+
+  <app-shared-tabs></app-shared-tabs>
+</ion-content>

@@ -1,0 +1,26 @@
+/* Contenedor de accesos directos */
+.shortcut-container {
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el contenido a la izquierda */
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Título */
+  .shortcut-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px; /* Pequeño margen a la izquierda */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Botones */
+  .shortcut-container ion-button {
+    font-size: 16px;
+    --color: white;
+    width: 200px; /* Tamaño fijo para que todos los botones tengan el mismo ancho */
+  }
+  

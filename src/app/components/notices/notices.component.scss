@@ -1,0 +1,48 @@
+/* Estilo de la sección de noticias musicales */
+.news-section {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .news-section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Tarjeta de noticia */
+  .news-card {
+    display: flex;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .news-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .news-content {
+    padding: 10px;
+    color: white;
+  }
+  
+  .news-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .news-content p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ddd;
+  }
+  

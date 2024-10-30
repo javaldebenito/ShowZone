@@ -1,0 +1,65 @@
+/* Banner 1 */
+.banner-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Controla la altura máxima del banner */
+    object-fit: cover; /* Mantiene la relación de aspecto y rellena el área */
+}
+
+/* Banner 2 */
+#banner2 {
+    width: 90%; /* Ajusta el ancho para que sea más pequeño y deje espacio a los lados */
+    height: auto;
+    max-height: 250px; /* Reduce la altura máxima del banner */
+    object-fit: cover; /* Mantiene la relación de aspecto y rellena el área */
+    margin: 0 auto 15px auto; /* Centra el banner y agrega espacio inferior */
+    border-radius: 10px; /* Bordes redondeados solo para el segundo banner */
+}
+
+/* Acerca de la aplicación */
+.app-description {
+    text-align: center; /* Centrar el contenido */
+    margin: 20px; /* Margen alrededor del párrafo */
+    padding: 10px; /* Relleno interno */
+}
+
+.app-description h2 {
+    text-transform: uppercase; 
+    font-weight: bold; 
+    border-bottom: 1px solid #007BFF; 
+    font-size: 32px; /* Tamaño del título */
+}
+
+.app-description p {
+    font-size: 1.1em; /* Tamaño del texto del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Contacto */
+#contactotitle {
+    margin-top: 50px;
+    font-size: 25px;           
+    font-weight: bold;                     
+    text-align: center;        
+    text-transform: uppercase; 
+    border-bottom: 1px solid #007BFF; 
+}
+
+.form-invitation {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 30px; /* Espacio superior para separar del título */
+}
+
+/* Espaciado adicional para evitar solapamiento */
+ion-content {
+    padding-bottom: 100px; /* Espacio adicional en la parte inferior */
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ShowZone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
