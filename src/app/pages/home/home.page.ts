@@ -8,6 +8,8 @@ import { MenuController } from '@ionic/angular';
 })
 export class HomePage {
 
+    
+
   constructor(private router: Router,  private menu: MenuController) {} // Inyecta el Router
 
   changeTab(tab: string) {
@@ -25,6 +27,8 @@ export class HomePage {
         break;
     }
   }
+
+  
 
 
 }

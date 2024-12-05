@@ -13,5 +13,4 @@ export class SharedHeaderComponent  implements OnInit {
   constructor() { }
 
   ngOnInit() {}
-
 }
