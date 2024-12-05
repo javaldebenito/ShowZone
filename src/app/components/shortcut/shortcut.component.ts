@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShortcutComponent  implements OnInit {
 
+  onClick() {
+    console.log('Botón clickeado');
+  }
+  
   constructor() { }
 
   ngOnInit() {}

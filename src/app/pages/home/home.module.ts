@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { NoticesComponent } from 'src/app/components/notices/notices.component';
+
 import { ShortcutComponent } from 'src/app/components/shortcut/shortcut.component';
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { ShortcutComponent } from 'src/app/components/shortcut/shortcut.componen
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    SharedModule
+    SharedModule,
+
   ],
   declarations: [HomePage,NoticesComponent,ShortcutComponent
   ],

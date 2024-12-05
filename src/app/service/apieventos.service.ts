@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class ApieventosService {
 
   // URL de la API de Mockaroo
-  private apiUrl = "https://api.mockaroo.com/api/ce467760?count=20&key=617909f0"; 
+  apiUrl = "https://api.mockaroo.com/api/ce467760?count=20&key=617909f0"; 
 
   constructor(private http: HttpClient) {}
 
